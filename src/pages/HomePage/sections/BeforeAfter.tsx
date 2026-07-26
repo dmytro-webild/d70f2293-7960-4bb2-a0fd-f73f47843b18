@@ -10,12 +10,12 @@ export default function BeforeAfterSection(): React.JSX.Element {
     <div id="before-after" data-section="before-after">
         <SectionErrorBoundary name="before-after">
               <AboutMediaOverlay
-          tag="Results"
-          title="Before vs After"
-          description="Don't settle for outdated layouts. Transform your digital presence into a conversion machine."
-          imageSrc="http://img.b2bpic.net/free-photo/web-page-design-user-interface-template-copy-space_53876-120721.jpg"
-          textAnimation="fade-blur"
-        />
+        tag="Results"
+        title="Before vs After"
+        description="Don't settle for outdated layouts. Transform your digital presence into a conversion machine."
+        imageSrc="https://picsum.photos/seed/2082052325/1200/800"
+        textAnimation="fade-blur"
+      />
         </SectionErrorBoundary>
       </div>
   );
