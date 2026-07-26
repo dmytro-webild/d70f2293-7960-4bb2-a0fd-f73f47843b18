@@ -18,7 +18,7 @@ export default function ContactSection(): React.JSX.Element {
           }}
           secondaryButton={{
             text: "Email Us",
-            href: "mailto:hello@madenew.studio",
+            href: "mailto:madenew.studio517@gmail.com",
           }}
           textAnimation="fade-blur"
         />
