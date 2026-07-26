@@ -10,33 +10,12 @@ export default function ServicesSection(): React.JSX.Element {
     <div id="services" data-section="services">
         <SectionErrorBoundary name="services">
               <FeaturesBentoGrid
-          tag="Our Services"
-          title="Designed to Grow"
-          description="Comprehensive web solutions tailored for local businesses."
-          features={[
-            {
-              title: "Website Refresh",
-              description: "Modern redesign of your existing website. Includes SEO, mobile optimization, and branding updates.",
-              imageSrc: "http://img.b2bpic.net/free-photo/internet-speed-test-software-concept_53876-120681.jpg",
-            },
-            {
-              title: "New Website",
-              description: "Completely custom business website. Includes contact form, Google Maps, mobile responsive, and basic SEO.",
-              imageSrc: "http://img.b2bpic.net/free-photo/high-view-black-price-tag-with-shadow_23-2148629508.jpg",
-            },
-            {
-              title: "Website Care Plan",
-              description: "Monthly maintenance including hosting support, content edits, backups, and performance monitoring.",
-              imageSrc: "http://img.b2bpic.net/free-photo/user-profile-icon-front-side_187299-39596.jpg",
-            },
-            {
-              title: "SEO & Performance",
-              description: "Get found on Google with optimized speed and visibility improvements.",
-              imageSrc: "http://img.b2bpic.net/free-photo/internet-speed-test-software-concept_53876-124238.jpg",
-            },
-          ]}
-          textAnimation="slide-up"
-        />
+        tag="Our Services"
+        title="Designed to Grow"
+        description="Comprehensive web solutions tailored for local businesses."
+        features={[{"description":"Modern redesign of your existing website. Includes SEO, mobile optimization, and branding updates.","imageSrc":"https://images.unsplash.com/photo-1495908333425-29a1e0918c5f?auto=format&fit=crop&q=80","title":"Website Refresh"},{"description":"Completely custom business website. Includes contact form, Google Maps, mobile responsive, and basic SEO.","imageSrc":"https://images.unsplash.com/photo-1518182170546-0766de6b6aa1?auto=format&fit=crop&q=80","title":"New Website"},{"description":"Monthly maintenance including hosting support, content edits, backups, and performance monitoring.","imageSrc":"https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80","title":"Website Care Plan"},{"imageSrc":"https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?auto=format&fit=crop&q=80","description":"Get found on Google with optimized speed and visibility improvements.","title":"SEO & Performance"}]}
+        textAnimation="slide-up"
+      />
         </SectionErrorBoundary>
       </div>
   );

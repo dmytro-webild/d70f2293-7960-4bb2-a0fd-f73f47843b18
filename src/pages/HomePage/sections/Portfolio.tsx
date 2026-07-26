@@ -10,48 +10,12 @@ export default function PortfolioSection(): React.JSX.Element {
     <div id="portfolio" data-section="portfolio">
         <SectionErrorBoundary name="portfolio">
               <FeaturesImageBento
-          tag="Portfolio"
-          title="Recent Projects"
-          description="Beautiful, high-converting sites for diverse local businesses."
-          items={[
-            {
-              title: "Local Cafe",
-              description: "Website Design",
-              imageSrc: "http://img.b2bpic.net/free-photo/image-young-stylish-guy-with-laptop-sitting-cafe-with-his-computer-typing-something-drinking_1258-314318.jpg",
-            },
-            {
-              title: "Fitness Studio",
-              description: "Brand Redesign",
-              imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-pensive-sporty-woman-has-fitness-training-outdoors-holds-stereo-headphones-dressed-activewear-poses-knees-karemat-modern-city-daytime-healthy-lifestyle-concept_273609-59150.jpg",
-            },
-            {
-              title: "Architect",
-              description: "Portfolio Site",
-              imageSrc: "http://img.b2bpic.net/free-photo/blueprint-architect-construction-project-sketch-concept_53876-120012.jpg",
-            },
-            {
-              title: "Boutique Shop",
-              description: "E-commerce Build",
-              imageSrc: "http://img.b2bpic.net/free-photo/online-shop-buy-internet-shopping-store-concept_53876-127377.jpg",
-            },
-            {
-              title: "Law Firm",
-              description: "Corporate Identity",
-              imageSrc: "http://img.b2bpic.net/free-photo/business-marketing-planning-trategy-graph_53876-121052.jpg",
-            },
-            {
-              title: "Real Estate",
-              description: "Property Listings",
-              imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-isometric-house_23-2150727946.jpg",
-            },
-            {
-              title: "Coming Soon",
-              description: "Stay Tuned",
-              imageSrc: "http://img.b2bpic.net/free-photo/agenda-calendar-appointment-graphic-concept_53876-121111.jpg",
-            },
-          ]}
-          textAnimation="fade"
-        />
+        tag="Portfolio"
+        title="Recent Projects"
+        description="Beautiful, high-converting sites for diverse local businesses."
+        items={[{"title":"Local Cafe","imageSrc":"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80","description":"Website Design"},{"title":"Fitness Studio","description":"Brand Redesign","imageSrc":"https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80"},{"title":"Architect","description":"Portfolio Site","imageSrc":"https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80"},{"imageSrc":"https://images.unsplash.com/photo-1495908333425-29a1e0918c5f?auto=format&fit=crop&q=80","description":"E-commerce Build","title":"Boutique Shop"},{"title":"Law Firm","description":"Corporate Identity","imageSrc":"https://images.unsplash.com/photo-1518182170546-0766de6b6aa1?auto=format&fit=crop&q=80"},{"imageSrc":"https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80","description":"Property Listings","title":"Real Estate"},{"title":"Coming Soon","imageSrc":"https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?auto=format&fit=crop&q=80","description":"Stay Tuned"}]}
+        textAnimation="fade"
+      />
         </SectionErrorBoundary>
       </div>
   );
