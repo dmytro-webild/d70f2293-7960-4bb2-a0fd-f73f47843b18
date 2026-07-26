@@ -10,7 +10,6 @@ import SocialProofSection from './HomePage/sections/SocialProof';
 import ServicesSection from './HomePage/sections/Services';
 import MetricsSection from './HomePage/sections/Metrics';
 import BeforeAfterSection from './HomePage/sections/BeforeAfter';
-import PortfolioSection from './HomePage/sections/Portfolio';
 import PricingSection from './HomePage/sections/Pricing';
 import FaqSection from './HomePage/sections/Faq';
 import ContactSection from './HomePage/sections/Contact';
@@ -27,8 +26,6 @@ export default function HomePage(): React.JSX.Element {
   <MetricsSection />
 
   <BeforeAfterSection />
-
-  <PortfolioSection />
 
   <PricingSection />
 
