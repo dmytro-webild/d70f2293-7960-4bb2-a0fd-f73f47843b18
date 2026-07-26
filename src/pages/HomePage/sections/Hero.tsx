@@ -10,27 +10,20 @@ export default function HeroSection(): React.JSX.Element {
     <div id="hero" data-section="hero">
         <SectionErrorBoundary name="hero">
               <HeroSplitMediaGrid
-          tag="Made New Studio"
-          title="Your Website Should Bring You Customers—Not Drive Them Away"
-          description="I build beautiful, high-converting websites for local businesses in as little as 24–48 hours. Fast, modern, mobile-friendly, and built to grow your business."
-          primaryButton={{
+        tag="Made New Studio"
+        title="Your Website Should Bring You Customers—Not Drive Them Away"
+        description="I build beautiful, high-converting websites for local businesses in as little as 24–48 hours. Fast, modern, mobile-friendly, and built to grow your business."
+        primaryButton={{
             text: "Get My Free Website Audit",
             href: "#contact",
           }}
-          secondaryButton={{
+        secondaryButton={{
             text: "See My Work",
             href: "#portfolio",
           }}
-          items={[
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/view-3d-buttons_23-2149917545.jpg",
-            },
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/medication-drug-pharmacist-prescription-patient_53876-124312.jpg",
-            },
-          ]}
-          textAnimation="fade-blur"
-        />
+        items={[{"imageSrc":"https://images.unsplash.com/photo-1471922694854-ff1b63b20054?q=80&w=2072&auto=format&fit=crop"},{"imageSrc":"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073&auto=format&fit=crop"}]}
+        textAnimation="fade-blur"
+      />
         </SectionErrorBoundary>
       </div>
   );
